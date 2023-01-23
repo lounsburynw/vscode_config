@@ -1,0 +1,55 @@
+{
+    "workbench.colorTheme": "Default Light+",
+    "security.workspace.trust.untrustedFiles": "open",
+    "editor.mouseWheelZoom": true,
+    "terminal.integrated.fontSize": 16,
+    "python.terminal.launchArgs": [
+        "-m",
+        "IPython",
+        "--no-autoindent"
+    ],
+    "python.alwaysUseActiveTerminal": true,
+    "git.ignoreLegacyWarning": true,
+    "vim.easymotion": true,
+    "vim.incsearch": true,
+    "vim.useSystemClipboard": true,
+    "vim.useCtrlKeys": true,
+    "vim.hlsearch": true,
+    "vim.insertModeKeyBindings": [
+      {
+        "before": ["k", "j"],
+        "after": ["<Esc>"]
+      }
+    ],
+    "vim.normalModeKeyBindingsNonRecursive": [
+      {
+        "before": ["<leader>", "d"],
+        "after": ["d", "d"]
+      },
+      {
+        "before": ["<C-n>"],
+        "commands": [":nohl"]
+      },
+      {
+        "before": ["K"],
+        "commands": ["lineBreakInsert"],
+        "silent": true
+      }
+    ],
+    "vim.leader": "<space>",
+    "vim.handleKeys": {
+      "<C-a>": false,
+      "<C-f>": false
+    },
+  "editor.fontSize": 18,
+  "r.bracketedPaste": true,
+  "r.sessionWatcher": true,
+  "r.alwaysUseActiveTerminal": true,
+  "r.rterm.linux": "/gstore/apps/R/R_3.6.1_Bioc_3.10/R-3.6.1-Bioc-3.10-prd-20200217/bin/R",
+  "r.session.watchGlobalEnvironment": true,
+  "r.workspaceViewer.showObjectSize": true,
+  "r.session.data.rowLimit": 100,
+  "liveServer.settings.AdvanceCustomBrowserCmdLine": "chrome",
+  "workbench.activityBar.visible": false,
+  "editor.inlineSuggest.enabled": true
+}
